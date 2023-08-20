@@ -8,7 +8,7 @@ The Memorize demonstration continues, in corporating MVVM.
 * [Reading 1 ↗️](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)
 * [Assignment 1 ↗️](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a1.pdf)
 
-## MVVM Architectural Pattern
+## MVVM Design Paradigm
 
 ### Model-View-ViewModel
 
@@ -37,3 +37,36 @@ It is different from MVC (Model View Controller) that UIKit (old-style iOS) uses
 * When data changes, ViewModel interpret that data, it might convert it to some other format, but when it does ist it publishes.
 * ViewModel never has a pointer to its View.
 * ViewModel processes User intent from View.
+
+## Varieties of Types
+
+Stored vars - stored in memory
+Computed vars - those whose value is the result of evaluating some code.
+Constant lets - vars whose values never change.
+
+Initializers - special functions that called when creating a struct or class.
+
+#### Difference between struct and class
+<img width="1328" alt="Screenshot 2023-08-20 at 15 05 10" src="https://github.com/AlexKovzhut/Stanford.CS193p/assets/17033916/1622c8e5-bf47-4ee4-b700-d3d52d53d575">
+
+#### Generics
+<img width="1272" alt="Screenshot 2023-08-20 at 15 07 07" src="https://github.com/AlexKovzhut/Stanford.CS193p/assets/17033916/35cffe8a-bfbd-44b0-ac96-5499142a92d9">
+<img width="1188" alt="Screenshot 2023-08-20 at 15 09 27" src="https://github.com/AlexKovzhut/Stanford.CS193p/assets/17033916/e28bd3c0-78ae-4d39-9166-7c5c1df40d7e">
+<img width="1191" alt="Screenshot 2023-08-20 at 15 09 36" src="https://github.com/AlexKovzhut/Stanford.CS193p/assets/17033916/6f7c2eb3-eee3-4f55-ab4a-bfb413df25ec">
+
+#### Functions as Types
+<img width="1221" alt="Screenshot 2023-08-20 at 15 13 51" src="https://github.com/AlexKovzhut/Stanford.CS193p/assets/17033916/ebdb9ef2-bca5-4c68-88e9-b1eb4bdc23d8">
+<img width="1182" alt="Screenshot 2023-08-20 at 15 15 09" src="https://github.com/AlexKovzhut/Stanford.CS193p/assets/17033916/064af05f-246b-47f0-bf83-f443964934e9">
+
+
+
+
+
+
+
+
+
+
+
+
+
