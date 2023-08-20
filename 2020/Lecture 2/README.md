@@ -16,6 +16,8 @@ A "code organizing" architectual design pattern. Works in concert with the conce
 Must be adhered to for SwiftUI to work.
 It is different from MVC (Model View Controller) that UIKit (old-style iOS) uses.
 
+<img width="1350" alt="Screenshot 2023-08-20 at 14 54 35" src="https://github.com/AlexKovzhut/Stanford.CS193p/assets/17033916/6db0b2be-7275-4b1f-a5c6-53b4afb6ae10">
+
 #### Model
 * Model is trying to encapsulate the data and the logic about what application does.
 * UI independent. 
@@ -35,5 +37,3 @@ It is different from MVC (Model View Controller) that UIKit (old-style iOS) uses
 * When data changes, ViewModel interpret that data, it might convert it to some other format, but when it does ist it publishes.
 * ViewModel never has a pointer to its View.
 * ViewModel processes User intent from View.
-
-<img width="1350" alt="Screenshot 2023-08-20 at 14 54 35" src="https://github.com/AlexKovzhut/Stanford.CS193p/assets/17033916/6db0b2be-7275-4b1f-a5c6-53b4afb6ae10">
